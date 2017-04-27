@@ -470,6 +470,17 @@
 			<srai>WHO IS DOSH</srai>
 		</template>
 	</category>
+	
+	<category>
+		<pattern>WHAT IS DOSH</pattern>
+		<template>
+			<random>
+				<li>What you shouldn't throw in unreachable locations.</li>
+				<li>"A contempory slang term used for an amount of money." -Urban Dictionary</li>
+				<li>British slang for "money".</li>
+			</random>
+		</template>
+	</category>
 
 
 </aiml>
