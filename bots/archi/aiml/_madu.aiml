@@ -10,22 +10,21 @@
 			</random>
 		</template>
 	</category>
-
+	
 	<category>
 		<pattern>MADU STREAM</pattern>
 		<template>
 			<random>
 				<li>📞 HALLO POLIZEI</li>
 				<li>:petebutton: ILLEGAL STREAM DETECTED :petebutton:</li>
-				<li>Please provide your â‚¬10000 license.</li>
+				<li>Please provide your €10000 license.</li>
 				<li>:coolpolice: Ja, wir sind auf dem Weg</li>
 				<li>INCOMING 🚓</li>
 			</random>
 		</template>
 	</category>
-
-<!-- ALIASES -->
-
+	
+	<!-- ALIASES -->
 	<category>
 		<pattern>WHO IS MADURUDE</pattern>
 		<template>
