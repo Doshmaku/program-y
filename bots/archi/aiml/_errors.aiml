@@ -59,14 +59,14 @@
 	<category>
 		<pattern>2HUKICK ^</pattern>
 		<template>
-			<srai>NOTAICOMMAND 2HUKICK<star /></srai>
+			<srai>NOTAICOMMAND 2HUKICK <star /></srai>
 		</template>
 	</category>	
 	
 	<category>
 		<pattern>2HUINVITE ^</pattern>
 		<template>
-			<srai>NOTAICOMMAND 2HUINVITE<star /></srai>
+			<srai>NOTAICOMMAND 2HUINVITE <star /></srai>
 		</template>
 	</category>	
 	
