@@ -9,7 +9,7 @@
 	
 	<category>
 		<pattern>NOTAICOMMAND *</pattern>
-		<template>That's not a command I recognize, are you sure it's AI-related? :doubt: Maybe try !<lowercase><star /></lowercase> instead :sgsmile:</template>
+		<template>Maybe try EXCLAMATIONMARK<lowercase><star /></lowercase> instead :sgsmile:</template>
 	</category>
 		
 <!-- ERROR COMMANDS -->
