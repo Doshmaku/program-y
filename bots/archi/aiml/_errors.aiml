@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- ERROR TYPES -->
+	
+	<category>
+		<pattern>NOTAICOMMAND</pattern>
+		<template>That's not a command I recognize, are you sure it's AI-related? :doubt:</template>
+	</category>
+	
+	<category>
+		<pattern>NOTAICOMMAND *</pattern>
+		<template>That's not a command I recognize, are you sure it's AI-related? :doubt: Maybe try !<lowercase><star /></lowercase> instead :sgsmile:</template>
+	</category>
+		
+<!-- ERROR COMMANDS -->
+
+	<category>
+		<pattern>2HUAFK ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND 2HUAFK <star /></srai>
+		</template>
+	</category>	
+
+	<category>
+		<pattern>2HUAFKNEXT ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND 2HUAFKNEXT</srai>
+		</template>
+	</category>	
+	
+	<category>
+		<pattern>2HUAFKNOW ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND 2HUAFKNOW</srai>
+		</template>
+	</category>	
+	
+	<category>
+		<pattern>2HUAWESOME ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND 2HUAWESOME <star /></srai>
+		</template>
+	</category>	
+	
+	<category>
+		<pattern>2HUBUG ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND 2HUBUG <star /></srai>
+		</template>
+	</category>	
+	
+	<category>
+		<pattern>2HUEVENT ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND 2HUEVENT <star /></srai>
+		</template>
+	</category>	
+	
+	<category>
+		<pattern>2HUKICK ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND 2HUKICK<star /></srai>
+		</template>
+	</category>	
+	
+	<category>
+		<pattern>2HUINVITE ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND 2HUINVITE<star /></srai>
+		</template>
+	</category>	
+	
+	<category>
+		<pattern>2HULEECHERS ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND 2HULEECHERS</srai>
+		</template>
+	</category>	
+	
+	<category>
+		<pattern>2HUMUSIC ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND 2HUMUSIC <star /></srai>
+		</template>
+	</category>	
+	
+	<category>
+		<pattern>2HUOJ ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND 2HUOJ <star /></srai>
+		</template>
+	</category>	
+	
+	<category>
+		<pattern>2HUSUGGESTION ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND 2HUSUGGESTION <star /></srai>
+		</template>
+	</category>	
+	
+	<category>
+		<pattern>2HUTALISMAN ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND 2HUTALISMAN <star /></srai>
+		</template>
+	</category>	
+	
+	<category>
+		<pattern>GIT ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND GIT</srai>
+		</template>
+	</category>	
+	
+	<category>
+		<pattern>BOTGIT ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND BOTGIT</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>AIGIT ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND AIGIT</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>2HU ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND 2HU <star /></srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>2HUGIB ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND 2HUGIB <star /></srai>
+		</template>
+	</category>	
+	
+	<category>
+		<pattern>ROULETTE ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND ROULETTE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>2HUANNOUNCE ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND 2HUANNOUNCE <star /></srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>2HUFL ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND 2HUFL</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>2HUFUCKUP ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND 2HUFUCKUP <star /></srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NSFW ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND NSFW <star /></srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>SFW ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND SFW <star /></srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>SUB ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND SUB</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>TAGS ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND TAGS <star /></srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>TRAIN ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND TRAIN <star /></srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>TRAIND ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND TRAIND <star /></srai>
+		</template>
+	</category>	
+
+<!-- RADIO COMMANDS-->
+	<category>
+		<pattern>DEL ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND DEL</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>ADDTHEME ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND ADDTHEME <star /></srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>AUTOTHEME ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND AUTOTHEME</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>PLAYALBUM ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND PLAYALBUM <star /></srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>PLAYALBUMS ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND PLAYALBUMS <star /></srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>PLAYARTIST ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND PLAYARTIST <star /></srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>PLAYARTISTS ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND PLAYARTISTS <star /></srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>PLAYBEST ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND PLAYBEST</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>PLAYNUMBER ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND PLAYNUMBER <star /></srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>PLAYPERFORMER ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND PLAYPERFORMER <star /></srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>PLAYPERFORMERS ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND PLAYPERFORMERS <star /></srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>PLAYRATE ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND PLAYRATE <star /></srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>PLAYSONG ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND PLAYSONG <star /></srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>PLAYSONGS ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND PLAYSONGS <star /></srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>PLAYTHEME ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND PLAYTHEME <star /></srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>PLAYTHEMES ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND PLAYTHEMES <star /></srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>RATE ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND RATE <star /></srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>DL ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND DL</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>DLRATE ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND DLRATE <star /></srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>DLALBUM ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND DLALBUM <star /></srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>DLALBUMS ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND DLALBUMS <star /></srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>DLARTIST ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND DLARTIST <star /></srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>DLARTISTS ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND DLARTISTS <star /></srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>DLBEST ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND DLBEST</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>DLPERFORMER ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND DLPERFORMER <star /></srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>DLPERFORMERS ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND DLPERFORMERS <star /></srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>DLRATE ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND DLRATE <star /></srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>DLSONG ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND DLSONG <star /></srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>DLSONGS ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND DLSONGS <star /></srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>DLTHEME ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND DLTHEME <star /></srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>DLTHEMES ^</pattern>
+		<template>
+			<srai>NOTAICOMMAND DLTHEMES <star /></srai>
+		</template>
+	</category>
+</aiml>

@@ -402,6 +402,22 @@
 	</category>
 	
 	<category>
+		<pattern>TRANSLATE ^</pattern>
+		<template>
+			<random>
+				<li>(flipping the dirty hungarian phrasebook) I will not buy this record, it is scratched.</li>
+				<li>(flipping the dirty hungarian phrasebook) I will not buy this tobacconist's, it is scratched.</li>
+				<li>(flipping the dirty hungarian phrasebook) My hovercraft is full of eels.</li>
+				<li>(flipping the dirty hungarian phrasebook) Do you want to come back to my place, bouncy bouncy?</li>
+				<li>(flipping the dirty hungarian phrasebook) If I said you had a beautiful body, would you hold it against me? I... I am no longer infected.</li>
+				<li>(flipping the dirty hungarian phrasebook) Ah. You have beautiful thighs.</li>
+				<li>(flipping the dirty hungarian phrasebook) Drop your panties, Sir William, I cannot wait 'til lunchtime.</li>
+				<li>(flipping the dirty hungarian phrasebook) My nipples explode with delight!</li>
+			</random>
+		</template>
+	</category>
+	
+	<category>
 		<pattern>FLIP</pattern>
 		<template>Flip what :sgsmile:</template>
 	</category>	
