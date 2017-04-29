@@ -37,6 +37,11 @@
 	</category>
 	
 	<category>
+		<pattern>TAIGO</pattern>
+		<template><sentence><srai>RANDOMADJECTIVE</srai></sentence> <sentence><srai>RANDOMNOUN</srai></sentence> Taigo</template>
+	</category>
+	
+	<category>
 		<pattern>NUTFACTS</pattern>
 		<template>
 			<srai>NUTFACT</srai>
