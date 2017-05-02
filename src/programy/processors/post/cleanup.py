@@ -32,7 +32,8 @@ class CleanUpPostProcessor(PostProcessor):
         pass3 = " ".join(re.sub(r'("\s+)(.*)(\s+")', r'"\2"', val) for val in pass2)
         pass4 = re.sub(r'\s+([,:;?.!](?:\s|$))', r'\1', pass3)
         final = re.sub(r'(\d)\.\s+(\d)', r'\1.\2', pass4)
-        final = final.replace('try EXCLAMATIONMARK ', 'try !')
+        if final.startswith("Maybe try EXCLAMATIONMARK"):
+            final = final.replace('EXCLAMATIONMARK ', 'try "!').replace(' instead :sgsmile:', '" instead :sgsmile:')
         if final.startswith("(╯°□°）╯︵ "):
             final = "(╯°□°）╯︵ " + final[9:].replace(' ', '')
         return final
