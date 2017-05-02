@@ -19,7 +19,7 @@
 			</random>
 		</template>
 	</category>
-	
+
 	<category>
 		<pattern>NUTFACT</pattern>		<!-- Taigo -->
 		<template>
@@ -35,18 +35,25 @@
 			</random>
 		</template>
 	</category>
-	
+
 	<category>
 		<pattern>TAIGO</pattern>
 		<template><sentence><srai>RANDOMADJECTIVE</srai></sentence> <sentence><srai>RANDOMNOUN</srai></sentence> Taigo</template>
 	</category>
-	
+
+	<category>
+		<pattern>WHO IS TAIGO</pattern>
+		<template>
+			<srai>TAIGO</srai>
+		</template>
+	</category>
+
 	<category>
 		<pattern>NUTFACTS</pattern>
 		<template>
 			<srai>NUTFACT</srai>
 		</template>
-	</category>		
+	</category>
 
 	<category>
 		<pattern>^ NUT FACTS</pattern>
@@ -54,7 +61,7 @@
 			<srai>NUTFACT</srai>
 		</template>
 	</category>
-	
+
 	<category>
 		<pattern>^ NUT FACT</pattern>
 		<template>
