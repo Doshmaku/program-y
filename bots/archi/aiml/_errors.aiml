@@ -9,7 +9,7 @@
 	
 	<category>
 		<pattern>NOTAICOMMAND *</pattern>
-		<template>Maybe try EXCLAMATIONMARK<lowercase><star /></lowercase> instead :sgsmile:</template>
+		<template>Maybe try !<lowercase><star /></lowercase> instead :sgsmile:</template>
 	</category>
 		
 <!-- ERROR COMMANDS -->
