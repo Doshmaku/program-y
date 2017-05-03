@@ -14,29 +14,15 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 """
 
+
 import logging
+from programy.processors.processing import PreProcessor
 
-from programy.parser.template.maps.map import TemplateMap
-
-class SuccessorMap(TemplateMap):
-
-    NAME = "SUCCESSOR"
+class ToUpperPreProcessor(PreProcessor):
 
     def __init__(self):
-        TemplateMap.__init__(self)
+        PreProcessor.__init__(self)
 
-    @staticmethod
-    def get_name():
-        return SuccessorMap.NAME
-
-    def map(self, value):
-        try:
-            int_value = int(value)
-            str_value = str(int_value + 1)
-            logging.debug("SuccessorMap converted %s to %s" % (value, str_value))
-            return str_value
-        except:
-            logging.error("SuccessorMap could not convert %s to integer string" % (value))
-            return ""
-
-
+    def process(self, bot, clientid, string):
+        logging.debug("Making input upper case...")
+        return string.upper()
